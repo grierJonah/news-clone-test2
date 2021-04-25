@@ -1,0 +1,68 @@
+.db-posts {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.db-post-url a {
+	color: rgb(143, 143, 143);
+	margin-left: 20px;
+}
+
+.db-post-url a:hover {
+	text-decoration: none;
+	color: rgb(143, 143, 143);
+}
+
+.db-post-title {
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.db-post-title a:link,
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.db-post-title a:visited {
+	color: rgb(143, 143, 143);
+}
+
+.db-post-index {
+	font-size: 16px;
+}
+
+#db-post-triangle {
+	margin: 0 5px 0 1px;
+	color: rgb(143, 143, 143);
+}
+
+.db-post-information {
+	display: flex;
+	flex-direction: row;
+	margin-left: 32px;
+	margin-top: -10px;
+	color: rgb(143, 143, 143);
+}
+
+#ul-post {
+	font-size: x-small;
+}
+
+#ul-post-username,
+#ul-post-comments,
+#ul-post-edit {
+	margin-right: 10px;
+}
+
+#ul-post-edit a {
+	color: rgb(143, 143, 143);
+	cursor: pointer;
+}
+
+#ul-post-delete a {
+	color: rgb(143, 143, 143);
+	cursor: pointer;
+}

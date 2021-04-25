@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main-body-container-section {
+	background-color: rgb(246, 246, 239);
+	margin: -20px 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	min-height: 100vh; /* <------------------------------------------------------- look here later */
+}
+
+.add-post-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	display: inline;
+}
+
+.footer-container {
+	display: inline;
+	position: absolute;
+	width: auto;
+	bottom: 0;
+	left: 3%;
+	right: 3%;
+	background-color: rgb(246, 246, 239);
+	text-align: center;
+}
+
+.center-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#search-bar {
+	display: inline-block;
+	margin: 5px 10px 5px;
+	justify-content: center;
+}
+
+.center-footer li *::after {
+	content: " ";
+}
+
+.center-footer li *::before {
+	content: " ";
+}
+
+footer li::before {
+	content: " ";
+}

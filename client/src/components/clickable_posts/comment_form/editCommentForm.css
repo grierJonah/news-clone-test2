@@ -1,0 +1,31 @@
+.edit-comment-container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.edit-comment-form {
+	margin: 15% 35%;
+}
+
+.form-group {
+	align-content: center;
+	justify-content: center;
+}
+
+button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+#post-back-button {
+	cursor: pointer;
+	margin-top: -0.5px;
+}
+
+a:hover {
+	color: rgb(0, 87, 197);
+}

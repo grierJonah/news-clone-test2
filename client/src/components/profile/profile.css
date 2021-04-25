@@ -1,0 +1,16 @@
+#user-profile {
+	margin-left: 5px;
+}
+#user-home {
+	float: right;
+	margin-right: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.user-profile-settings {
+	margin: 0 auto;
+}

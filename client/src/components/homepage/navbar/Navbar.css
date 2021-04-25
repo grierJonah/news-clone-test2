@@ -1,0 +1,82 @@
+.nav-section {
+	margin: 0 50px;
+}
+
+.navigation-bar {
+	display: flex;
+	margin-top: 10px;
+}
+
+.inner-nav-list {
+	display: inline;
+}
+
+.tags a {
+	list-style-type: none;
+	color: black;
+}
+.tags::after {
+	content: " | ";
+}
+
+#jobs-tag::after,
+#log-out-tag::after,
+#user-login::after {
+	content: "";
+}
+
+#header-navigation {
+	list-style-type: none;
+	width: 100%;
+	background-color: rgb(255, 91, 0);
+}
+
+li {
+	display: inline;
+}
+
+#user-login {
+	float: right;
+}
+
+#user-register,
+#profile-tag,
+#log-out-tag {
+	float: right;
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 770px) {
+	#jobs-tag,
+	#comments-tag,
+	#show-tag,
+	#ask-tag {
+		display: none;
+	}
+
+	.tags::after {
+		content: " | ";
+	}
+
+	#submit-tag::after {
+		content: "";
+	}
+}
+
+#hack-news-logo-container {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#hacker-news-logo {
+	height: 15px;
+	width: 15px;
+	border: 1px solid white;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bolder;
+	margin: 0px 2px;
+}
