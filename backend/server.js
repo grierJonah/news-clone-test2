@@ -3,15 +3,14 @@ const bodyParser = require('body-parser')
 const app = express()
 const mongoose = require('mongoose')
 const dotenv = require('dotenv')
-const postRoutes = require('./controller/post.controller');
-const userRoutes = require('./controller/user.controller');
-const commentRoutes = require('./controller/comment.controller');
+const postRoutes = require('./src/controller/post.controller');
+const userRoutes = require('./src/controller/user.controller');
+const commentRoutes = require('./src/controller/comment.controller');
 
 const cors = require('cors')
 const cookieParser = require('cookie-parser');
 
 dotenv.config();
-
 mongoose.connect(process.env.DATABASE_ACCESS, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false }, () => console.log('Database Connected'))
 
 app.set('port', process.env.PORT || 8000);
